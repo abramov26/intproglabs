@@ -63,7 +63,8 @@ while($row=mysqli_fetch_array($result)){
 	xlsWriteLabel($i,2,$credit_rating);
 	xlsWriteLabel($i,3,$name); 
 	xlsWriteLabel($i,4,$interest);  
-	xlsWriteLabel($i,5,$sum);  
+	xlsWriteLabel($i,5,$sum);
+	$i++;
 }
 
 
