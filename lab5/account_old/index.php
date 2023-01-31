@@ -1,15 +1,4 @@
-<?php
-
-session_start();
-
-if (empty($_SESSION['username'])) {
-	header('Location: login.php');
-	die();
-} else {
-	echo 'Привет, '.$_SESSION['username'].' <a href="logout.php">Выйти из аккаунта</a>';
-}
-
-?>
+<? require_once '/var/www/admin_check.php'; ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -18,7 +7,7 @@ if (empty($_SESSION['username'])) {
 	<title>ПИ-323 ИП ЛР№5 Абрамов Владислав</title>
 </head>
 <body>
-	<h1>Интернет-программирование, Лабораторная работа №4, №5</h1>
+	<h1>Интернет-программирование, Лабораторная работа №5</h1>
 	<h2>Абрамов Владислав, ФИРТ ПИ-323</h2>
 	<a href="/">← Вернуться на главную</a>
 	<h2>Вариант №3. Банки:</h2>
@@ -52,7 +41,5 @@ if (empty($_SESSION['username'])) {
 	<p><a href="deposits/">Задача 5.1. Вклады</a></p>
 	<p><a href="gen_pdf.php">Задача 5.2. Формирование отчёта по вкладам в формате PDF</a></p>
 	<p><a href="gen_xls.php">Задача 5.2. Формирование отчёта по вкладам в формате XLS</a></p>
-	<p><a href="users/">Задача 6.1. Управление пользователями</a></p>
-	<p><a href="account/">Задача 6.1. Управление учётной записью</a></p>
 </body>
 </html>

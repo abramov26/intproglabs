@@ -7,6 +7,7 @@
 </head>
 <body>
 	<?php
+	require_once '/var/www/login_check.php';
 	require_once '/var/www/dbconnect.php';
 	$query ="UPDATE deposits SET offer_id ='".$_GET['offer_id'].
 	"', initial_deposit_amout='".$_GET['initial_deposit_amout'].

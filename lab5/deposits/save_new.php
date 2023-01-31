@@ -1,4 +1,5 @@
 <?php
+require_once '/var/www/login_check.php';
 require_once '/var/www/dbconnect.php';
 $sql_add = "INSERT INTO deposits SET created_at='" . time()
 ."', offer_id ='".$_GET['offer_id']."', initial_deposit_amout='"

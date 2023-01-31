@@ -1,3 +1,4 @@
+<? require_once '/var/www/login_check.php'; ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>

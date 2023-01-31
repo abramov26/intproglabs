@@ -1,3 +1,4 @@
+<? require_once '/var/www/admin_check.php'; ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -7,7 +8,6 @@
 </head>
 <body>
 	<?php
-	require_once '/var/www/login_check.php';
 	require_once '/var/www/dbconnect.php';
 	$query ="UPDATE banks SET bank_name ='".$_GET['name'].
 	"', itn_number='".$_GET['itn_number']."', credit_rating='"

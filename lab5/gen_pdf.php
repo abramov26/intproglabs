@@ -1,4 +1,6 @@
 <?php
+require_once ('/var/www/login_check.php');
+
 // Include nessesary libraries
 require_once('tcpdf/tcpdf.php');
 require_once ('/var/www/dbconnect.php');

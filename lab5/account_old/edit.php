@@ -1,4 +1,4 @@
-<? require_once '/var/www/login_check.php'; ?>
+<? require_once '/var/www/admin_check.php'; ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -18,7 +18,7 @@
 		$credit_rating = $st['credit_rating'];
 		$asset_volume = $st['asset_volume'];
 	}
-	print "<form action='save_edit.php' method='GET'>";
+	print "<form action='save_edit.php' metod='GET'>";
 	print "Имя: <input name='name' size='50' type='text'
 	value='".$name."'>";
 	print "<br>Логин: <input name='itn_number' size='20' type='text'

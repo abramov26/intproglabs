@@ -1,4 +1,5 @@
 <?
+require_once ('/var/www/login_check.php');
 require_once ('/var/www/dbconnect.php');
 
 function xlsBOF() {

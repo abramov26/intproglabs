@@ -1,9 +1,10 @@
+<? require_once '/var/www/login_check.php'; ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>ПИ-323 ИП ЛР№4 Абрамов Владислав</title>
+	<title>ПИ-323 ИП ЛР№5 Абрамов Владислав</title>
 </head>
 <body>
 	<h1>Интернет-программирование, Лабораторная работа №4</h1>

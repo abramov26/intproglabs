@@ -1,4 +1,5 @@
 <?php
+require_once '/var/www/login_check.php';
 require_once '/var/www/dbconnect.php';
 // Строка запроса на добавление записи в таблицу:
 $sql_add = "INSERT INTO banks SET bank_name='" . $_GET['name']
